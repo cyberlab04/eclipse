@@ -24,7 +24,7 @@ public class AdminAPI extends AltoroAPI{
 		
 		//Don't really care if the user is admin or not - I think that's how it works in AltoroJ - demo123
 				
-		//Convert request to JSON
+		//Convert request to JSON  ---  1st April 20  made changes
 		String username;
 		String password1;
 		String password2;
