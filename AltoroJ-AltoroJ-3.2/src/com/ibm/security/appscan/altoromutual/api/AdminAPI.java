@@ -22,7 +22,7 @@ public class AdminAPI extends AltoroAPI{
 	public Response changePassword(String bodyJSON, @Context HttpServletRequest request) throws IOException{
 		JSONObject bodyJson= new JSONObject();
 		
-		//Don't really care if the user is admin or not - I think that's how it works in AltoroJ
+		//Don't really care if the user is admin or not - I think that's how it works in AltoroJ - demo123
 				
 		//Convert request to JSON
 		String username;
